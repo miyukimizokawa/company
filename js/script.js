@@ -26,7 +26,7 @@ $(function(){
 
 // スクロールしたら、サイトロゴとハンバーガーボタンの色が変わる
   $(window).on('load scroll', function(){
-     if ($(window).scrollTop() < imgHeight -50) {
+     if ($(window).scrollTop() < imgHeight) {
        //メインビジュアル内にいるので、クラスを外す。
        $('.site-title').removeClass('black');
      }else {
@@ -34,7 +34,7 @@ $(function(){
        $('.site-title').addClass('black');
      }
 
-     if ($(window).scrollTop() < bgHeight -70) {
+     if ($(window).scrollTop() < bgHeight) {
        //メインビジュアル内にいるので、クラスを外す。
        $('.burger-btn').removeClass('black');
      }else {

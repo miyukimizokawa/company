@@ -1,10 +1,10 @@
 /* common */
 
 html{
-  font-size: 62.5%;
+  font-size: 65%;
 }
 body{
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   font-family: 'Montserrat', 'Noto Sans JP', sans-serif;
   color: #333;
 }
@@ -166,7 +166,7 @@ button{
 
 /* ハンバーガーボタン（メニューが開いたとき） */
 .bar.cross.bar_top{
-  transform: translateY(2px)rotate(30deg);
+  transform: translateY(4px)rotate(45deg);
   transition: transform .3s;
 }
 .bar.cross.bar_mid{
@@ -174,7 +174,7 @@ button{
   transition: opacity .3s;
 }
 .bar.cross.bar_bottom{
-  transform: translateY(-2px)rotate(-30deg);
+  transform: translateY(-4px)rotate(-45deg);
   transition: transform .3s;
 }
 
@@ -225,7 +225,7 @@ body.noscroll{
 }
 .kv-wrapper{
   height: 86%;
-  width: 76.4%;
+  width: 76%;
   background-image: url(../img/k-v.jpg);
   background-size: cover;
   background-position: center 0;
